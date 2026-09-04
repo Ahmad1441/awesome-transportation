@@ -4,7 +4,7 @@
 
 A curated collection of high-quality tools, datasets, software, APIs, courses, tutorials, standards, and open-source projects for transportation and mobility.
 
-**This collection is curated rather than exhaustive. Resources are selected based on usefulness, quality, relevance, and accessibility.**
+This collection is curated rather than exhaustive. Resources are selected based on usefulness, quality, relevance, and accessibility.
 
 The list serves transportation engineers, planners, railway and transit professionals, researchers, students, data scientists, developers, and autonomous-systems teams. Every entry must have a meaningful transportation connection; generic AI, GIS, or robotics resources are out of scope.
 
@@ -18,6 +18,7 @@ The list serves transportation engineers, planners, railway and transit professi
 - [Transportation Data and Safety](#transportation-data-and-safety)
 - [Standards and Connected Transportation](#standards-and-connected-transportation)
 - [Learning, Research and Community](#learning-research-and-community)
+- [Coverage Roadmap](#coverage-roadmap)
 
 <!-- catalog:start -->
 
