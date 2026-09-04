@@ -1,0 +1,84 @@
+name: Suggest a resource
+description: Propose one high-quality transportation or mobility resource.
+title: "Resource: "
+labels:
+  - resource-suggestion
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping keep this list useful and curated. Please propose one resource and disclose any affiliation.
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL
+      placeholder: https://example.org/
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category and subcategory
+      description: Use the taxonomy where possible.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - Software
+        - Dataset
+        - API
+        - Tutorial or documentation
+        - Course or book
+        - Standard
+        - Research group or professional organization
+        - Conference or journal
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: In one neutral sentence, explain what it is and its transportation value.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why is it useful?
+      description: Note the audience, task, or evidence that makes it worth returning to.
+    validations:
+      required: true
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you affiliated with the resource?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: textarea
+    id: affiliation_details
+    attributes:
+      label: Affiliation details
+      description: If yes, explain your role or relationship.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I opened the URL and confirmed it resolves to the named resource.
+          required: true
+        - label: I searched the catalog for duplicates.
+          required: true
+        - label: This is not an affiliate link or a low-value promotional page.
+          required: true

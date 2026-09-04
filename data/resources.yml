@@ -1,0 +1,859 @@
+schema_version: 1
+resources:
+  - name: A/B Street
+    url: https://a-b-street.github.io/docs/
+    description: Interactive transportation planning simulator for exploring traffic, parking, cycling, and street-design scenarios on OpenStreetMap networks.
+    category: simulation-and-modelling
+    subcategory: multimodal-simulation
+    resource_type: software
+    transport_mode: multimodal
+    organization: A/B Street contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [street-design, traffic, openstreetmap]
+    license: Apache-2.0
+    last_checked: 2026-09-04
+
+  - name: Eclipse SUMO
+    url: https://eclipse.dev/sumo/
+    description: Open-source microscopic and continuous traffic simulator with multimodal demand, network editing, and extensive control interfaces.
+    category: simulation-and-modelling
+    subcategory: microscopic-traffic-simulation
+    resource_type: software
+    transport_mode: multimodal
+    organization: Eclipse Foundation
+    geography: global
+    free: true
+    open_source: true
+    tags: [traffic, microscopic, traci]
+    license: EPL-2.0
+    last_checked: 2026-09-04
+
+  - name: MATSim
+    url: https://www.matsim.org/
+    description: Open-source agent-based framework for large-scale transport simulation, travel demand, and policy analysis.
+    category: simulation-and-modelling
+    subcategory: agent-based-simulation
+    resource_type: software
+    transport_mode: multimodal
+    organization: MATSim Association
+    geography: global
+    free: true
+    open_source: true
+    tags: [agent-based, demand, policy]
+    license: GPL-2.0
+    last_checked: 2026-09-04
+
+  - name: CityFlow
+    url: https://cityflow-project.github.io/
+    description: Multi-agent traffic simulation platform designed for large-scale traffic-signal control and reinforcement-learning experiments.
+    category: simulation-and-modelling
+    subcategory: microscopic-traffic-simulation
+    resource_type: software
+    transport_mode: road
+    organization: CityFlow contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [traffic-signals, reinforcement-learning, multi-agent]
+    license: Apache-2.0
+    last_checked: 2026-09-04
+
+  - name: BEAM
+    url: https://transportation.lbl.gov/index.php/beam
+    description: Agent-based framework for modelling transportation, energy, and mobility systems at regional scale.
+    category: simulation-and-modelling
+    subcategory: agent-based-simulation
+    resource_type: software
+    transport_mode: multimodal
+    organization: Lawrence Berkeley National Laboratory
+    geography: global
+    free: true
+    open_source: true
+    tags: [energy, agent-based, regional-modelling]
+    license: BSD-3-Clause
+    last_checked: 2026-09-04
+
+  - name: SimMobility
+    url: https://github.com/smart-fm/simmobility-prod
+    description: Integrated activity-based, agent-based platform spanning short-, medium-, and long-term urban mobility decisions.
+    category: simulation-and-modelling
+    subcategory: agent-based-simulation
+    resource_type: repository
+    transport_mode: multimodal
+    organization: Singapore-MIT Alliance for Research and Technology
+    geography: global
+    free: true
+    open_source: true
+    tags: [agent-based, urban-mobility, activity-based]
+    license: MIT
+    last_checked: 2026-09-04
+
+  - name: Veins
+    url: https://veins.car2x.org/
+    description: Vehicular-network simulation framework coupling road traffic and wireless-network models for V2X research.
+    category: simulation-and-modelling
+    subcategory: connected-vehicle-simulation
+    resource_type: software
+    transport_mode: road
+    organization: Veins contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [v2x, communications, network-simulation]
+    license: GPL-2.0-or-later
+    last_checked: 2026-09-04
+
+  - name: Eclipse MOSAIC
+    url: https://eclipse.dev/mosaic/
+    description: Multi-domain co-simulation framework for connected, cooperative, and automated mobility applications.
+    category: simulation-and-modelling
+    subcategory: connected-vehicle-simulation
+    resource_type: software
+    transport_mode: road
+    organization: Eclipse Foundation
+    geography: global
+    free: true
+    open_source: true
+    tags: [v2x, co-simulation, connected-vehicles]
+    license: EPL-2.0
+    last_checked: 2026-09-04
+
+  - name: JuPedSim
+    url: https://www.jupedsim.org/
+    description: Open-source pedestrian-dynamics simulator for evacuation, facility, and walking-flow analysis.
+    category: simulation-and-modelling
+    subcategory: pedestrian-simulation
+    resource_type: software
+    transport_mode: walking
+    organization: JuPedSim contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [pedestrians, evacuation, crowd-dynamics]
+    license: LGPL-3.0
+    last_checked: 2026-09-04
+
+  - name: ActivitySim
+    url: https://activitysim.github.io/activitysim/
+    description: Open platform for implementing disaggregate activity-based travel-demand models in Python.
+    category: planning-operations-and-spatial-analysis
+    subcategory: travel-demand-modelling
+    resource_type: software
+    transport_mode: multimodal
+    organization: ActivitySim Consortium
+    geography: global
+    free: true
+    open_source: true
+    tags: [activity-based, demand, python]
+    license: BSD-3-Clause
+    last_checked: 2026-09-04
+
+  - name: AequilibraE
+    url: https://www.aequilibrae.com/
+    description: Open-source transportation-modelling toolkit for network skimming, traffic assignment, transit, and matrix workflows.
+    category: planning-operations-and-spatial-analysis
+    subcategory: network-modelling
+    resource_type: software
+    transport_mode: multimodal
+    organization: AequilibraE contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [assignment, networks, python]
+    license: MPL-2.0
+    last_checked: 2026-09-04
+
+  - name: VisionEval
+    url: https://visioneval.github.io/
+    description: Open-source strategic planning system for evaluating regional transport, land-use, energy, and emissions scenarios.
+    category: planning-operations-and-spatial-analysis
+    subcategory: strategic-planning
+    resource_type: software
+    transport_mode: multimodal
+    organization: VisionEval Community
+    geography: United States
+    free: true
+    open_source: true
+    tags: [scenario-planning, emissions, policy]
+    license: Apache-2.0
+    last_checked: 2026-09-04
+
+  - name: OpenStreetMap
+    url: https://www.openstreetmap.org/
+    description: Collaborative global map database widely used for routable road, path, cycling, rail, and transit network data.
+    category: planning-operations-and-spatial-analysis
+    subcategory: maps-and-networks
+    resource_type: dataset
+    transport_mode: multimodal
+    organization: OpenStreetMap Foundation
+    geography: global
+    free: true
+    open_source: true
+    tags: [mapping, networks, routing]
+    license: ODbL-1.0
+    last_checked: 2026-09-04
+
+  - name: QGIS
+    url: https://qgis.org/
+    description: Open-source desktop GIS for spatial analysis, network data preparation, cartography, and transportation workflows.
+    category: planning-operations-and-spatial-analysis
+    subcategory: gis-and-spatial-analysis
+    resource_type: software
+    transport_mode: multimodal
+    organization: QGIS.org
+    geography: global
+    free: true
+    open_source: true
+    tags: [gis, cartography, spatial-analysis]
+    license: GPL-2.0-or-later
+    last_checked: 2026-09-04
+
+  - name: OSMnx
+    url: https://osmnx.readthedocs.io/
+    description: Python package for downloading, modelling, analysing, and visualizing street and transport networks from OpenStreetMap.
+    category: planning-operations-and-spatial-analysis
+    subcategory: maps-and-networks
+    resource_type: software
+    transport_mode: multimodal
+    organization: OSMnx contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [openstreetmap, networks, python]
+    license: MIT
+    last_checked: 2026-09-04
+
+  - name: pgRouting
+    url: https://pgrouting.org/
+    description: PostgreSQL and PostGIS extension providing shortest-path, vehicle-routing, and graph-analysis functions for spatial networks.
+    category: planning-operations-and-spatial-analysis
+    subcategory: routing-and-optimization
+    resource_type: software
+    transport_mode: multimodal
+    organization: pgRouting Community
+    geography: global
+    free: true
+    open_source: true
+    tags: [routing, postgis, optimization]
+    license: GPL-2.0-or-later
+    last_checked: 2026-09-04
+
+  - name: Open Source Routing Machine
+    url: https://project-osrm.org/
+    description: High-performance routing engine for shortest-path and travel-time queries on OpenStreetMap road networks.
+    category: planning-operations-and-spatial-analysis
+    subcategory: routing-and-optimization
+    resource_type: software
+    transport_mode: road
+    organization: Project OSRM contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [routing, openstreetmap, road-networks]
+    license: BSD-2-Clause
+    last_checked: 2026-09-04
+
+  - name: r5r
+    url: https://ipeagit.github.io/r5r/
+    description: R package for rapid multimodal routing and accessibility analysis using the R5 routing engine.
+    category: planning-operations-and-spatial-analysis
+    subcategory: accessibility-analysis
+    resource_type: software
+    transport_mode: multimodal
+    organization: Institute for Applied Economic Research
+    geography: global
+    free: true
+    open_source: true
+    tags: [accessibility, routing, r]
+    license: MIT
+    last_checked: 2026-09-04
+
+  - name: General Transit Feed Specification
+    url: https://gtfs.org/
+    description: Official documentation for the static and real-time open data specifications used to publish public-transport information.
+    category: public-transport-and-shared-mobility
+    subcategory: standards-and-data-formats
+    resource_type: standard
+    transport_mode: transit
+    organization: MobilityData
+    geography: global
+    free: true
+    open_source: true
+    tags: [gtfs, schedules, realtime]
+    last_checked: 2026-09-04
+
+  - name: Mobility Database
+    url: https://mobilitydatabase.org/
+    description: Global catalog of public GTFS, GTFS Realtime, and GBFS feeds with quality and source metadata.
+    category: public-transport-and-shared-mobility
+    subcategory: data-catalogs
+    resource_type: dataset
+    transport_mode: multimodal
+    organization: MobilityData
+    geography: global
+    free: true
+    open_source: true
+    tags: [gtfs, gbfs, open-data]
+    last_checked: 2026-09-04
+
+  - name: Canonical GTFS Schedule Validator
+    url: https://github.com/MobilityData/gtfs-validator
+    description: Canonical open-source validator for checking GTFS Schedule feeds against the specification and best practices.
+    category: public-transport-and-shared-mobility
+    subcategory: data-quality-tools
+    resource_type: repository
+    transport_mode: transit
+    organization: MobilityData
+    geography: global
+    free: true
+    open_source: true
+    tags: [gtfs, validation, data-quality]
+    license: Apache-2.0
+    last_checked: 2026-09-04
+
+  - name: OpenTripPlanner
+    url: https://www.opentripplanner.org/
+    description: Open-source multimodal journey-planning engine using GTFS and OpenStreetMap data.
+    category: public-transport-and-shared-mobility
+    subcategory: journey-planning
+    resource_type: software
+    transport_mode: multimodal
+    organization: OpenTripPlanner contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [routing, gtfs, openstreetmap]
+    license: LGPL-3.0
+    last_checked: 2026-09-04
+
+  - name: OneBusAway
+    url: https://opentransitsoftwarefoundation.org/onebusaway/
+    description: Open-source platform and applications for publishing real-time transit arrivals and rider information.
+    category: public-transport-and-shared-mobility
+    subcategory: rider-information
+    resource_type: software
+    transport_mode: transit
+    organization: Open Transit Software Foundation
+    geography: global
+    free: true
+    open_source: true
+    tags: [realtime, rider-information, gtfs]
+    license: Apache-2.0
+    last_checked: 2026-09-04
+
+  - name: Transitland
+    url: https://www.transit.land/
+    description: Community-maintained transit-feed registry and API for exploring aggregated GTFS data.
+    category: public-transport-and-shared-mobility
+    subcategory: data-catalogs
+    resource_type: api
+    transport_mode: transit
+    organization: Interline Technologies
+    geography: global
+    free: true
+    open_source: true
+    tags: [gtfs, api, feed-registry]
+    api_available: true
+    last_checked: 2026-09-04
+
+  - name: Navitia
+    url: https://github.com/hove-io/navitia
+    description: Open-source multimodal journey-planning and passenger-information engine with routing and transit APIs.
+    category: public-transport-and-shared-mobility
+    subcategory: journey-planning
+    resource_type: repository
+    transport_mode: multimodal
+    organization: Hove
+    geography: global
+    free: true
+    open_source: true
+    tags: [routing, journey-planning, api]
+    license: AGPL-3.0
+    api_available: true
+    last_checked: 2026-09-04
+
+  - name: MobilityData Awesome Transit
+    url: https://github.com/MobilityData/awesome-transit
+    description: Specialist community list covering open standards, software, datasets, and APIs for public transportation.
+    category: public-transport-and-shared-mobility
+    subcategory: reference-collections
+    resource_type: repository
+    transport_mode: transit
+    organization: MobilityData
+    geography: global
+    free: true
+    open_source: true
+    tags: [gtfs, open-transit, community]
+    license: CC0-1.0
+    last_checked: 2026-09-04
+
+  - name: OpenRailwayMap
+    url: https://www.openrailwaymap.org/
+    description: Global railway-infrastructure map built from OpenStreetMap data, including tracks, signalling, electrification, and speeds.
+    category: railways
+    subcategory: maps-and-infrastructure-data
+    resource_type: dataset
+    transport_mode: rail
+    organization: OpenRailwayMap contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [rail-infrastructure, mapping, openstreetmap]
+    license: ODbL-1.0
+    last_checked: 2026-09-04
+
+  - name: railML
+    url: https://www.railml.org/
+    description: Open XML-based exchange format for railway infrastructure, rolling stock, timetables, and interlocking data.
+    category: railways
+    subcategory: standards-and-data-formats
+    resource_type: standard
+    transport_mode: rail
+    organization: railML.org
+    geography: global
+    free: true
+    open_source: true
+    tags: [railway, xml, interoperability]
+    last_checked: 2026-09-04
+
+  - name: OSRD
+    url: https://osrd.fr/en/
+    description: Open-source railway capacity, timetable, and infrastructure-design platform developed for operational planning.
+    category: railways
+    subcategory: operations-and-simulation
+    resource_type: software
+    transport_mode: rail
+    organization: SNCF Reseau
+    geography: global
+    free: true
+    open_source: true
+    tags: [capacity, timetabling, infrastructure]
+    license: LGPL-3.0
+    last_checked: 2026-09-04
+
+  - name: OpenTrack
+    url: https://www.opentrack.ch/opentrack/opentrack_e/opentrack_e.html
+    description: Railway operations simulation software used for timetable, capacity, signalling, and infrastructure studies.
+    category: railways
+    subcategory: operations-and-simulation
+    resource_type: software
+    transport_mode: rail
+    organization: OpenTrack Railway Technology
+    geography: global
+    free: false
+    open_source: false
+    tags: [railway-simulation, capacity, timetabling]
+    last_checked: 2026-09-04
+
+  - name: International Union of Railways
+    url: https://uic.org/
+    description: International railway-sector organization publishing technical reports, statistics, standards-related material, and research programmes.
+    category: railways
+    subcategory: professional-organizations
+    resource_type: research-group
+    transport_mode: rail
+    organization: International Union of Railways
+    geography: global
+    free: false
+    open_source: false
+    tags: [railway, standards, research]
+    last_checked: 2026-09-04
+
+  - name: CARLA
+    url: https://carla.org/
+    description: Open-source urban driving simulator for autonomous-system development, perception, planning, and control research.
+    category: robotics-and-autonomous-transportation
+    subcategory: autonomous-vehicle-simulation
+    resource_type: software
+    transport_mode: road
+    organization: CARLA Autonomous Driving Consortium
+    geography: global
+    free: true
+    open_source: true
+    tags: [autonomous-driving, simulation, robotics]
+    license: MIT
+    last_checked: 2026-09-04
+
+  - name: CommonRoad
+    url: https://commonroad.in.tum.de/
+    description: Benchmarking framework with scenarios, models, and tools for motion planning and automated-driving research.
+    category: robotics-and-autonomous-transportation
+    subcategory: scenarios-and-benchmarks
+    resource_type: dataset
+    transport_mode: road
+    organization: Technical University of Munich
+    geography: global
+    free: true
+    open_source: true
+    tags: [motion-planning, scenarios, benchmarks]
+    last_checked: 2026-09-04
+
+  - name: Autoware
+    url: https://autoware.org/
+    description: Open-source autonomous-driving software stack covering sensing, localization, planning, control, and vehicle interfaces.
+    category: robotics-and-autonomous-transportation
+    subcategory: autonomous-road-vehicles
+    resource_type: software
+    transport_mode: road
+    organization: Autoware Foundation
+    geography: global
+    free: true
+    open_source: true
+    tags: [ros, autonomous-driving, vehicle-stack]
+    license: Apache-2.0
+    last_checked: 2026-09-04
+
+  - name: Apollo
+    url: https://github.com/ApolloAuto/apollo
+    description: Open autonomous-driving platform integrating perception, prediction, planning, control, mapping, and simulation components.
+    category: robotics-and-autonomous-transportation
+    subcategory: autonomous-road-vehicles
+    resource_type: repository
+    transport_mode: road
+    organization: Apollo Auto
+    geography: global
+    free: true
+    open_source: true
+    tags: [autonomous-driving, vehicle-stack, robotics]
+    license: Apache-2.0
+    last_checked: 2026-09-04
+
+  - name: ScenarioNet
+    url: https://metadriverse.github.io/scenarionet/
+    description: Scenario database and toolkit for converting, managing, and replaying driving datasets in learning and simulation workflows.
+    category: robotics-and-autonomous-transportation
+    subcategory: scenarios-and-benchmarks
+    resource_type: software
+    transport_mode: road
+    organization: MetaDrive contributors
+    geography: global
+    free: true
+    open_source: true
+    tags: [scenarios, autonomous-driving, simulation]
+    license: Apache-2.0
+    last_checked: 2026-09-04
+
+  - name: Waymo Open Dataset
+    url: https://waymo.com/open/
+    description: Large-scale autonomous-driving datasets and benchmarks for perception, motion prediction, and end-to-end driving research.
+    category: robotics-and-autonomous-transportation
+    subcategory: autonomous-driving-datasets
+    resource_type: dataset
+    transport_mode: road
+    organization: Waymo
+    geography: United States
+    free: true
+    open_source: false
+    tags: [lidar, perception, motion-prediction]
+    last_checked: 2026-09-04
+
+  - name: nuScenes
+    url: https://www.nuscenes.org/
+    description: Multimodal autonomous-driving dataset with camera, lidar, radar, maps, and annotated scenes.
+    category: robotics-and-autonomous-transportation
+    subcategory: autonomous-driving-datasets
+    resource_type: dataset
+    transport_mode: road
+    organization: Motional
+    geography: United States and Singapore
+    free: true
+    open_source: false
+    tags: [lidar, radar, perception]
+    last_checked: 2026-09-04
+
+  - name: KITTI Vision Benchmark Suite
+    url: https://www.cvlibs.net/datasets/kitti/
+    description: Established road-scene benchmark datasets for stereo vision, optical flow, detection, tracking, odometry, and depth estimation.
+    category: robotics-and-autonomous-transportation
+    subcategory: autonomous-driving-datasets
+    resource_type: dataset
+    transport_mode: road
+    organization: Karlsruhe Institute of Technology and Toyota Technological Institute at Chicago
+    geography: Germany
+    free: true
+    open_source: false
+    tags: [computer-vision, perception, benchmark]
+    last_checked: 2026-09-04
+
+  - name: Argoverse 2
+    url: https://www.argoverse.org/av2.html
+    description: Autonomous-driving datasets supporting 3D perception, motion forecasting, and map-change research.
+    category: robotics-and-autonomous-transportation
+    subcategory: autonomous-driving-datasets
+    resource_type: dataset
+    transport_mode: road
+    organization: Argo AI
+    geography: United States
+    free: true
+    open_source: false
+    tags: [motion-forecasting, lidar, maps]
+    last_checked: 2026-09-04
+
+  - name: NGSIM
+    url: https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm
+    description: Federal Highway Administration programme providing detailed vehicle-trajectory datasets and supporting traffic-analysis material.
+    category: transportation-data-and-safety
+    subcategory: vehicle-trajectories
+    resource_type: dataset
+    transport_mode: road
+    organization: Federal Highway Administration
+    geography: United States
+    free: true
+    open_source: false
+    tags: [trajectories, traffic-flow, microscopic-data]
+    last_checked: 2026-09-04
+
+  - name: highD
+    url: https://levelxdata.com/highd-dataset/
+    description: Drone-recorded naturalistic vehicle trajectories from German motorways for traffic-flow and automated-driving research.
+    category: transportation-data-and-safety
+    subcategory: vehicle-trajectories
+    resource_type: dataset
+    transport_mode: road
+    organization: LevelXdata
+    geography: Germany
+    free: true
+    open_source: false
+    tags: [trajectories, drone, motorway]
+    last_checked: 2026-09-04
+
+  - name: INTERACTION Dataset
+    url: https://interaction-dataset.com/
+    description: Trajectory dataset of interactive driving scenarios from intersections, roundabouts, and merging locations in several countries.
+    category: transportation-data-and-safety
+    subcategory: vehicle-trajectories
+    resource_type: dataset
+    transport_mode: road
+    organization: INTERACTION Dataset Team
+    geography: international
+    free: true
+    open_source: false
+    tags: [trajectories, interaction, motion-prediction]
+    last_checked: 2026-09-04
+
+  - name: Fatality Analysis Reporting System
+    url: https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars
+    description: National census of police-reported fatal motor-vehicle crashes in the United States, with downloadable annual data.
+    category: transportation-data-and-safety
+    subcategory: crash-and-safety-data
+    resource_type: dataset
+    transport_mode: road
+    organization: National Highway Traffic Safety Administration
+    geography: United States
+    free: true
+    open_source: false
+    tags: [crashes, fatalities, road-safety]
+    last_checked: 2026-09-04
+
+  - name: Bureau of Transportation Statistics
+    url: https://www.bts.gov/
+    description: Official United States portal for multimodal transportation statistics, maps, indicators, and data tools.
+    category: transportation-data-and-safety
+    subcategory: government-data-portals
+    resource_type: dataset
+    transport_mode: multimodal
+    organization: United States Department of Transportation
+    geography: United States
+    free: true
+    open_source: false
+    tags: [statistics, government, multimodal]
+    last_checked: 2026-09-04
+
+  - name: National Transit Database
+    url: https://www.transit.dot.gov/ntd
+    description: Official data on United States transit agencies, service, ridership, finance, assets, safety, and performance.
+    category: transportation-data-and-safety
+    subcategory: public-transport-data
+    resource_type: dataset
+    transport_mode: transit
+    organization: Federal Transit Administration
+    geography: United States
+    free: true
+    open_source: false
+    tags: [transit, ridership, performance]
+    last_checked: 2026-09-04
+
+  - name: LTPP InfoPave
+    url: https://infopave.fhwa.dot.gov/
+    description: Web portal for Long-Term Pavement Performance data, documentation, visualization, and analysis tools.
+    category: transportation-data-and-safety
+    subcategory: infrastructure-data
+    resource_type: dataset
+    transport_mode: road
+    organization: Federal Highway Administration
+    geography: United States and Canada
+    free: true
+    open_source: false
+    tags: [pavements, infrastructure, performance]
+    last_checked: 2026-09-04
+
+  - name: International Transport Forum Data
+    url: https://www.itf-oecd.org/transport-data-and-statistics
+    description: Cross-country transport statistics covering passenger and freight activity, infrastructure, vehicles, and safety.
+    category: transportation-data-and-safety
+    subcategory: government-data-portals
+    resource_type: dataset
+    transport_mode: multimodal
+    organization: International Transport Forum
+    geography: international
+    free: true
+    open_source: false
+    tags: [statistics, freight, passenger-transport]
+    last_checked: 2026-09-04
+
+  - name: ASAM OpenDRIVE
+    url: https://www.asam.net/standards/detail/opendrive/
+    description: Standard for the logical description of road networks used by driving simulation and automated-driving applications.
+    category: standards-and-connected-transportation
+    subcategory: road-network-standards
+    resource_type: standard
+    transport_mode: road
+    organization: ASAM
+    geography: global
+    free: true
+    open_source: false
+    tags: [road-networks, simulation, autonomous-driving]
+    last_checked: 2026-09-04
+
+  - name: ASAM OpenSCENARIO
+    url: https://www.asam.net/standards/detail/openscenario/
+    description: Standard for describing dynamic driving scenarios used in simulation, testing, and validation of automated vehicles.
+    category: standards-and-connected-transportation
+    subcategory: scenario-standards
+    resource_type: standard
+    transport_mode: road
+    organization: ASAM
+    geography: global
+    free: true
+    open_source: false
+    tags: [scenarios, simulation, validation]
+    last_checked: 2026-09-04
+
+  - name: DATEX II
+    url: https://datex2.eu/
+    description: European standard and reference model for exchanging road-traffic and travel-information data.
+    category: standards-and-connected-transportation
+    subcategory: traffic-data-standards
+    resource_type: standard
+    transport_mode: road
+    organization: DATEX II
+    geography: Europe
+    free: true
+    open_source: false
+    tags: [traffic-data, interoperability, its]
+    last_checked: 2026-09-04
+
+  - name: General Bikeshare Feed Specification
+    url: https://gbfs.org/
+    description: Open data standard for real-time information about shared-mobility systems such as bikeshare and scooter share.
+    category: standards-and-connected-transportation
+    subcategory: shared-mobility-standards
+    resource_type: standard
+    transport_mode: cycling
+    organization: MobilityData
+    geography: global
+    free: true
+    open_source: true
+    tags: [gbfs, bikeshare, shared-mobility]
+    last_checked: 2026-09-04
+
+  - name: NeTEx
+    url: https://netex-cen.eu/
+    description: CEN standard for exchanging public-transport network, timetable, fare, and related reference data.
+    category: standards-and-connected-transportation
+    subcategory: public-transport-standards
+    resource_type: standard
+    transport_mode: transit
+    organization: European Committee for Standardization
+    geography: Europe
+    free: true
+    open_source: false
+    tags: [transit, timetables, fares]
+    last_checked: 2026-09-04
+
+  - name: MIT OpenCourseWare Transportation Systems Analysis
+    url: https://ocw.mit.edu/courses/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/
+    description: Graduate-level open course materials on transportation demand, supply, equilibrium, evaluation, and economics.
+    category: learning-research-and-community
+    subcategory: courses-and-open-education
+    resource_type: course
+    transport_mode: multimodal
+    organization: Massachusetts Institute of Technology
+    geography: global
+    free: true
+    open_source: false
+    tags: [demand, economics, graduate-course]
+    academic_level: graduate
+    last_checked: 2026-09-04
+
+  - name: FHWA Traffic Analysis Toolbox
+    url: https://ops.fhwa.dot.gov/trafficanalysistools/
+    description: Practitioner guidance and reference material for selecting, applying, and validating traffic-analysis tools and simulation models.
+    category: learning-research-and-community
+    subcategory: tutorials-and-guidance
+    resource_type: documentation
+    transport_mode: road
+    organization: Federal Highway Administration
+    geography: United States
+    free: true
+    open_source: false
+    tags: [traffic-analysis, simulation, guidance]
+    last_checked: 2026-09-04
+
+  - name: TRID
+    url: https://trid.trb.org/
+    description: Major bibliographic database of transportation research literature maintained by the Transportation Research Board and partners.
+    category: learning-research-and-community
+    subcategory: research-databases
+    resource_type: documentation
+    transport_mode: multimodal
+    organization: Transportation Research Board
+    geography: international
+    free: true
+    open_source: false
+    tags: [literature, research, bibliography]
+    last_checked: 2026-09-04
+
+  - name: Transportation Research Board
+    url: https://www.trb.org/
+    description: Research organization convening technical committees, conferences, publications, and the annual meeting across transportation modes.
+    category: learning-research-and-community
+    subcategory: professional-organizations
+    resource_type: research-group
+    transport_mode: multimodal
+    organization: National Academies of Sciences, Engineering, and Medicine
+    geography: international
+    free: false
+    open_source: false
+    tags: [research, conferences, publications]
+    last_checked: 2026-09-04
+
+  - name: International Transport Forum
+    url: https://www.itf-oecd.org/
+    description: Intergovernmental organization producing policy research, statistics, and international dialogue across transportation modes.
+    category: learning-research-and-community
+    subcategory: professional-organizations
+    resource_type: research-group
+    transport_mode: multimodal
+    organization: OECD
+    geography: international
+    free: true
+    open_source: false
+    tags: [policy, research, statistics]
+    last_checked: 2026-09-04
+
+  - name: IEEE Intelligent Transportation Systems Society
+    url: https://ieee-itss.org/
+    description: Professional society supporting conferences, publications, standards activity, and technical communities in intelligent transportation systems.
+    category: learning-research-and-community
+    subcategory: professional-organizations
+    resource_type: research-group
+    transport_mode: multimodal
+    organization: IEEE
+    geography: international
+    free: false
+    open_source: false
+    tags: [its, conferences, publications]
+    last_checked: 2026-09-04
