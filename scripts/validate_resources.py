@@ -46,14 +46,17 @@ CATEGORIES = {
 RESOURCE_TYPES = {
     "software",
     "dataset",
+    "data-portal",
     "api",
     "tutorial",
     "course",
     "book",
     "documentation",
+    "database",
     "repository",
     "standard",
     "research-group",
+    "professional-organization",
     "conference",
     "journal",
     "visualization-tool",
@@ -115,8 +118,20 @@ def main() -> int:
 
         url = resource["url"]
         if isinstance(url, str):
-            parsed = urlsplit(url)
-            if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+            try:
+                parsed = urlsplit(url)
+                hostname = parsed.hostname
+            except ValueError:
+                parsed = None
+                hostname = None
+            if (
+                parsed is None
+                or parsed.scheme not in {"http", "https"}
+                or not hostname
+                or parsed.username is not None
+                or parsed.password is not None
+                or any(character.isspace() for character in url)
+            ):
                 errors.append(f"{label}: URL must be an absolute HTTP(S) URL.")
             else:
                 urls.append(normalized_url(url))
@@ -135,13 +150,22 @@ def main() -> int:
             errors.append(f"{label}: tags must be a non-empty list.")
         elif any(not isinstance(tag, str) or not KEBAB_CASE.fullmatch(tag) for tag in resource["tags"]):
             errors.append(f"{label}: every tag must be a kebab-case string.")
+        elif len(resource["tags"]) > 5 or len(set(resource["tags"])) != len(resource["tags"]):
+            errors.append(f"{label}: tags must be unique and limited to five.")
 
         description = resource["description"]
         if isinstance(description, str) and (not description[:1].isupper() or not description.endswith(".")):
             errors.append(f"{label}: description must start uppercase and end with a period.")
         checked = resource["last_checked"]
-        if not isinstance(checked, (date, str)):
-            errors.append(f"{label}: last_checked must be a YYYY-MM-DD date.")
+        if isinstance(checked, str):
+            try:
+                parsed_date = date.fromisoformat(checked)
+            except ValueError:
+                parsed_date = None
+            if parsed_date is None or checked != parsed_date.isoformat():
+                errors.append(f"{label}: last_checked must be a valid YYYY-MM-DD date.")
+        elif not isinstance(checked, date):
+            errors.append(f"{label}: last_checked must be a valid YYYY-MM-DD date.")
         names.append(str(resource["name"]).casefold())
 
     for value, count in Counter(names).items():

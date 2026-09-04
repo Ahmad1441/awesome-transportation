@@ -27,7 +27,7 @@ resources:
     free: true
     open_source: true
     tags: [traffic, microscopic, traci]
-    license: EPL-2.0
+    license: EPL-2.0 OR GPL-2.0-or-later
     last_checked: 2026-09-04
 
   - name: MATSim
@@ -75,21 +75,6 @@ resources:
     license: BSD-3-Clause
     last_checked: 2026-09-04
 
-  - name: SimMobility
-    url: https://github.com/smart-fm/simmobility-prod
-    description: Integrated activity-based, agent-based platform spanning short-, medium-, and long-term urban mobility decisions.
-    category: simulation-and-modelling
-    subcategory: agent-based-simulation
-    resource_type: repository
-    transport_mode: multimodal
-    organization: Singapore-MIT Alliance for Research and Technology
-    geography: global
-    free: true
-    open_source: true
-    tags: [agent-based, urban-mobility, activity-based]
-    license: MIT
-    last_checked: 2026-09-04
-
   - name: Veins
     url: https://veins.car2x.org/
     description: Vehicular-network simulation framework coupling road traffic and wireless-network models for V2X research.
@@ -132,7 +117,7 @@ resources:
     free: true
     open_source: true
     tags: [pedestrians, evacuation, crowd-dynamics]
-    license: LGPL-3.0
+    license: LGPL-3.0-or-later
     last_checked: 2026-09-04
 
   - name: ActivitySim
@@ -289,7 +274,7 @@ resources:
     description: Global catalog of public GTFS, GTFS Realtime, and GBFS feeds with quality and source metadata.
     category: public-transport-and-shared-mobility
     subcategory: data-catalogs
-    resource_type: dataset
+    resource_type: data-portal
     transport_mode: multimodal
     organization: MobilityData
     geography: global
@@ -303,7 +288,7 @@ resources:
     description: Canonical open-source validator for checking GTFS Schedule feeds against the specification and best practices.
     category: public-transport-and-shared-mobility
     subcategory: data-quality-tools
-    resource_type: repository
+    resource_type: software
     transport_mode: transit
     organization: MobilityData
     geography: global
@@ -363,7 +348,7 @@ resources:
     description: Open-source multimodal journey-planning and passenger-information engine with routing and transit APIs.
     category: public-transport-and-shared-mobility
     subcategory: journey-planning
-    resource_type: repository
+    resource_type: software
     transport_mode: multimodal
     organization: Hove
     geography: global
@@ -394,7 +379,7 @@ resources:
     description: Global railway-infrastructure map built from OpenStreetMap data, including tracks, signalling, electrification, and speeds.
     category: railways
     subcategory: maps-and-infrastructure-data
-    resource_type: dataset
+    resource_type: visualization-tool
     transport_mode: rail
     organization: OpenRailwayMap contributors
     geography: global
@@ -425,7 +410,7 @@ resources:
     subcategory: operations-and-simulation
     resource_type: software
     transport_mode: rail
-    organization: SNCF Reseau
+    organization: SNCF Réseau
     geography: global
     free: true
     open_source: true
@@ -452,7 +437,7 @@ resources:
     description: International railway-sector organization publishing technical reports, statistics, standards-related material, and research programmes.
     category: railways
     subcategory: professional-organizations
-    resource_type: research-group
+    resource_type: professional-organization
     transport_mode: rail
     organization: International Union of Railways
     geography: global
@@ -510,7 +495,7 @@ resources:
     description: Open autonomous-driving platform integrating perception, prediction, planning, control, mapping, and simulation components.
     category: robotics-and-autonomous-transportation
     subcategory: autonomous-road-vehicles
-    resource_type: repository
+    resource_type: software
     transport_mode: road
     organization: Apollo Auto
     geography: global
@@ -547,6 +532,7 @@ resources:
     free: true
     open_source: false
     tags: [lidar, perception, motion-prediction]
+    notes: Free access requires registration and is limited to non-commercial use under Waymo's dataset agreement.
     last_checked: 2026-09-04
 
   - name: nuScenes
@@ -561,6 +547,7 @@ resources:
     free: true
     open_source: false
     tags: [lidar, radar, perception]
+    notes: Free access is limited to non-commercial use; commercial licensing is available separately.
     last_checked: 2026-09-04
 
   - name: KITTI Vision Benchmark Suite
@@ -575,6 +562,8 @@ resources:
     free: true
     open_source: false
     tags: [computer-vision, perception, benchmark]
+    license: CC-BY-NC-SA-3.0
+    notes: Download requires registration and the dataset is limited to academic, non-commercial use.
     last_checked: 2026-09-04
 
   - name: Argoverse 2
@@ -589,6 +578,8 @@ resources:
     free: true
     open_source: false
     tags: [motion-forecasting, lidar, maps]
+    license: CC-BY-NC-SA-4.0
+    notes: Dataset access is free for non-commercial use.
     last_checked: 2026-09-04
 
   - name: NGSIM
@@ -607,16 +598,17 @@ resources:
 
   - name: highD
     url: https://levelxdata.com/highd-dataset/
-    description: Drone-recorded naturalistic vehicle trajectories from German motorways for traffic-flow and automated-driving research.
+    description: Drone-recorded vehicle trajectories from German motorways, available by application for non-commercial traffic-flow and automated-driving research.
     category: transportation-data-and-safety
     subcategory: vehicle-trajectories
     resource_type: dataset
     transport_mode: road
-    organization: LevelXdata
+    organization: Institute for Automotive Engineering, RWTH Aachen University
     geography: Germany
     free: true
     open_source: false
     tags: [trajectories, drone, motorway]
+    notes: Free access is limited to approved non-commercial uses.
     last_checked: 2026-09-04
 
   - name: INTERACTION Dataset
@@ -652,7 +644,7 @@ resources:
     description: Official United States portal for multimodal transportation statistics, maps, indicators, and data tools.
     category: transportation-data-and-safety
     subcategory: government-data-portals
-    resource_type: dataset
+    resource_type: data-portal
     transport_mode: multimodal
     organization: United States Department of Transportation
     geography: United States
@@ -680,7 +672,7 @@ resources:
     description: Web portal for Long-Term Pavement Performance data, documentation, visualization, and analysis tools.
     category: transportation-data-and-safety
     subcategory: infrastructure-data
-    resource_type: dataset
+    resource_type: data-portal
     transport_mode: road
     organization: Federal Highway Administration
     geography: United States and Canada
@@ -694,7 +686,7 @@ resources:
     description: Cross-country transport statistics covering passenger and freight activity, infrastructure, vehicles, and safety.
     category: transportation-data-and-safety
     subcategory: government-data-portals
-    resource_type: dataset
+    resource_type: data-portal
     transport_mode: multimodal
     organization: International Transport Forum
     geography: international
@@ -760,7 +752,7 @@ resources:
     last_checked: 2026-09-04
 
   - name: NeTEx
-    url: https://netex-cen.eu/
+    url: https://transmodel-cen.eu/index.php/netex/
     description: CEN standard for exchanging public-transport network, timetable, fare, and related reference data.
     category: standards-and-connected-transportation
     subcategory: public-transport-standards
@@ -807,7 +799,7 @@ resources:
     description: Major bibliographic database of transportation research literature maintained by the Transportation Research Board and partners.
     category: learning-research-and-community
     subcategory: research-databases
-    resource_type: documentation
+    resource_type: database
     transport_mode: multimodal
     organization: Transportation Research Board
     geography: international
@@ -821,7 +813,7 @@ resources:
     description: Research organization convening technical committees, conferences, publications, and the annual meeting across transportation modes.
     category: learning-research-and-community
     subcategory: professional-organizations
-    resource_type: research-group
+    resource_type: professional-organization
     transport_mode: multimodal
     organization: National Academies of Sciences, Engineering, and Medicine
     geography: international
@@ -835,9 +827,9 @@ resources:
     description: Intergovernmental organization producing policy research, statistics, and international dialogue across transportation modes.
     category: learning-research-and-community
     subcategory: professional-organizations
-    resource_type: research-group
+    resource_type: professional-organization
     transport_mode: multimodal
-    organization: OECD
+    organization: International Transport Forum
     geography: international
     free: true
     open_source: false
@@ -849,7 +841,7 @@ resources:
     description: Professional society supporting conferences, publications, standards activity, and technical communities in intelligent transportation systems.
     category: learning-research-and-community
     subcategory: professional-organizations
-    resource_type: research-group
+    resource_type: professional-organization
     transport_mode: multimodal
     organization: IEEE
     geography: international

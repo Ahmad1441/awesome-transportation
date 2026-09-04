@@ -1,6 +1,6 @@
 # Awesome Transportation 🚦🚆🚌🚲 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Transportation and mobility resources for engineering, planning, operations, data, research, and education.
+> Engineering and research across road, rail, transit, active mobility, connected systems, and autonomous transportation.
 
 A curated collection of high-quality tools, datasets, software, APIs, courses, tutorials, standards, and open-source projects for transportation and mobility.
 
@@ -27,7 +27,6 @@ The list serves transportation engineers, planners, railway and transit professi
 
 - [BEAM](https://transportation.lbl.gov/index.php/beam) - Agent-based framework for modelling transportation, energy, and mobility systems at regional scale.
 - [MATSim](https://www.matsim.org) - Open-source agent-based framework for large-scale transport simulation, travel demand, and policy analysis.
-- [SimMobility](https://github.com/smart-fm/simmobility-prod) - Integrated activity-based, agent-based platform spanning short-, medium-, and long-term urban mobility decisions.
 
 ### Connected-Vehicle Simulation
 
@@ -170,7 +169,7 @@ The list serves transportation engineers, planners, railway and transit professi
 
 ### Vehicle Trajectories
 
-- [highD](https://levelxdata.com/highd-dataset) - Drone-recorded naturalistic vehicle trajectories from German motorways for traffic-flow and automated-driving research.
+- [highD](https://levelxdata.com/highd-dataset) - Drone-recorded vehicle trajectories from German motorways, available by application for non-commercial traffic-flow and automated-driving research.
 - [INTERACTION Dataset](https://interaction-dataset.com) - Trajectory dataset of interactive driving scenarios from intersections, roundabouts, and merging locations in several countries.
 - [NGSIM](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) - Federal Highway Administration programme providing detailed vehicle-trajectory datasets and supporting traffic-analysis material.
 
@@ -178,7 +177,7 @@ The list serves transportation engineers, planners, railway and transit professi
 
 ### Public-Transport Standards
 
-- [NeTEx](https://netex-cen.eu) - CEN standard for exchanging public-transport network, timetable, fare, and related reference data.
+- [NeTEx](https://transmodel-cen.eu/index.php/netex) - CEN standard for exchanging public-transport network, timetable, fare, and related reference data.
 
 ### Road-Network Standards
 
@@ -226,4 +225,4 @@ See the [full taxonomy](docs/taxonomy.md) for intended coverage, the [curation g
 
 ## Contributing
 
-Suggestions and corrections are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or pull request. Contributors do not need to edit every generated file: add or update the YAML entry, run the documented checks, and include evidence that the canonical URL was reviewed.
+Suggestions and corrections are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or pull request. Update both the readable list and its structured metadata, run the documented checks, and include evidence that the canonical URL was reviewed.

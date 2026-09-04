@@ -28,7 +28,7 @@ The same rule applies to AI, GIS, cloud, visualization, and computing tools: the
 For a new resource, either use the resource-suggestion issue form or open a pull request.
 
 1. Add one entry to `data/resources.yml` using the documented schema.
-2. Place it in the narrowest accurate category and subcategory.
+2. Add the matching entry to `README.md` in the narrowest accurate category and subcategory.
 3. Use the project's official site or canonical repository.
 4. Write a neutral description explaining both what it is and its transportation value.
 5. Disclose any personal, employer, client, or financial affiliation in the pull request.
@@ -37,11 +37,10 @@ For a new resource, either use the resource-suggestion issue form or open a pull
    ```console
    python -m pip install -r requirements-dev.txt
    python scripts/validate_resources.py
-   python scripts/render_readme.py
-   python scripts/render_readme.py --check
+   python scripts/validate_readme.py
    ```
 
-7. Commit both the YAML change and generated README update.
+7. Commit both the YAML and hand-maintained README changes.
 
 Descriptions begin with an uppercase character, end with a period, and avoid claims such as “best,” “leading,” or “revolutionary.” Do not guess optional metadata. See [docs/curation.md](docs/curation.md) for the full schema and review criteria.
 

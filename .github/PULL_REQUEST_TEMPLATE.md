@@ -15,7 +15,7 @@
 - [ ] I searched for duplicate names and URLs.
 - [ ] The resource has a direct, meaningful transportation connection.
 - [ ] The description is neutral, concise, starts uppercase, and ends with a period.
-- [ ] I added the structured YAML entry and regenerated the README.
+- [ ] I added matching entries to the structured YAML and hand-maintained README.
 - [ ] `python scripts/validate_resources.py` passes.
-- [ ] `python scripts/render_readme.py --check` passes.
+- [ ] `python scripts/validate_readme.py` passes.
 - [ ] I disclosed any affiliation above.

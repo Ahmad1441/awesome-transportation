@@ -108,7 +108,7 @@ The current top-level `category` values are:
 
 Allowed `transport_mode` values are `road`, `rail`, `transit`, `cycling`, `walking`, `freight`, `aviation`, `maritime`, and `multimodal`.
 
-Allowed `resource_type` values are `software`, `dataset`, `api`, `tutorial`, `course`, `book`, `documentation`, `repository`, `standard`, `research-group`, `conference`, `journal`, and `visualization-tool`.
+Allowed `resource_type` values are `software`, `dataset`, `data-portal`, `api`, `tutorial`, `course`, `book`, `documentation`, `database`, `repository`, `standard`, `research-group`, `professional-organization`, `conference`, `journal`, and `visualization-tool`.
 
 ## Design Decisions
 

@@ -35,7 +35,8 @@ Already addressed:
 - Curated entries with consistent link-description formatting.
 - Contribution guidelines and a Creative Commons CC0 license.
 - `awesome` and `awesome-list` included in the recommended topics.
-- CI configuration for catalog validation, README synchronization, and `awesome-lint`.
+- CI configuration for catalog validation, hand-maintained README synchronization, and `awesome-lint`.
+- A non-generated Markdown catalog, with YAML retained as a checked metadata mirror.
 - Default-branch workflow configuration targets `main`.
 
 Still required before a submission:

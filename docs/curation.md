@@ -30,7 +30,7 @@ Broken links, abandoned software, or superseded standards are removed or moved t
 
 ## YAML Schema
 
-`data/resources.yml` is the source of truth. It contains a schema version and a list of resource objects.
+`data/resources.yml` is the canonical metadata record. The README is a hand-maintained presentation of the same catalog, and validation checks that its placement, URLs, and descriptions remain synchronized.
 
 ### Required Fields
 
@@ -41,7 +41,7 @@ Broken links, abandoned software, or superseded standards are removed or moved t
 | `description` | Neutral one-sentence explanation of purpose and value. |
 | `category` | Controlled top-level taxonomy value. |
 | `subcategory` | Kebab-case topic within the category. |
-| `resource_type` | Controlled description of what the entry is. |
+| `resource_type` | Controlled description of what the resource is, independent of whether its URL happens to be a repository. |
 | `transport_mode` | Controlled primary mode, or `multimodal`. |
 | `organization` | Maintainer, publisher, standards body, or responsible organization. |
 | `geography` | Meaningful geographic coverage, or `global`/`international`. |
@@ -71,13 +71,13 @@ Run the local catalog checks with:
 python scripts/validate_resources.py
 ```
 
-Render the resource section of the README after editing YAML:
+After editing YAML and the corresponding README entry, check that they agree:
 
 ```console
-python scripts/render_readme.py
+python scripts/validate_readme.py
 ```
 
-CI verifies both the data and that the README is in sync.
+CI verifies both the data and the hand-maintained README.
 
 ## Future Checks
 
