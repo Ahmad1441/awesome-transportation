@@ -653,6 +653,23 @@ resources:
     tags: [statistics, government, multimodal]
     last_checked: 2026-09-04
 
+  - name: Mubboo Airport-to-City-Centre Access Index
+    url: https://mubboo.flights/research/airport-city-access-index
+    description: Open CSV snapshot of airport-to-centre public-transport times and fares for 60 cities, with official-source provenance and explicit missing values.
+    category: transportation-data-and-safety
+    subcategory: public-transport-data
+    resource_type: dataset
+    transport_mode: multimodal
+    organization: Mubboo Flights Research Team
+    geography: international
+    free: true
+    open_source: false
+    tags: [airport-access, public-transport, travel-time, fares, provenance]
+    license: CC-BY-4.0
+    data_format: CSV
+    last_checked: 2026-10-25
+    notes: Frozen official-source snapshot retrieved 26-27 September 2026; times are scheduled or stated to a stop within 3 km of a fixed centre point, not measured door-to-door journeys. Includes a source register and data dictionary; no verified fastest time for 14 cities.
+
   - name: National Transit Database
     url: https://www.transit.dot.gov/ntd
     description: Official data on United States transit agencies, service, ridership, finance, assets, safety, and performance.
